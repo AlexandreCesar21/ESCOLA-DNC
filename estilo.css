@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: url(img/imagem-menu.svg);
+}
+
+#logo {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+
+#titulo-minusuperior {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-minusuperior {
+    margin-left: 150px;
+    margin-top: 30px;
+}
