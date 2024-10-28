@@ -1,11 +1,13 @@
 * {
     margin: 0;
-    padding: 0;
-    color: white;
+    
 }
 
-body {
-    background: url(img/imagem-menu.svg);
+
+#menu-superior {
+    background-image: url(img/imagem-menu.svg);
+    color: white;
+    padding-bottom: 25px;
 }
 
 #logo {
@@ -17,9 +19,33 @@ body {
 #titulo-minusuperior {
     margin-left: 150px;
     margin-top: 50px;
+    
 }
 
 #texto-minusuperior {
     margin-left: 150px;
-    margin-top: 30px;
+    margin-top: 35px;
+    margin-bottom: 100px;
 }
+
+#menu-informacional {
+    background-color: #EAECE5;
+    display: grid;  
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+
+
+.icone{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding: 25px
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
