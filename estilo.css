@@ -49,3 +49,17 @@
     align-items: center;
 }
 
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video{
+    margin: 50px 25px 50px 75px;
+}
+
+#titulovideo {
+    color: #247BA0;
+    margin-top: 50px;
+}
