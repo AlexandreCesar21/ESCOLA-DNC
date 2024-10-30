@@ -87,15 +87,14 @@
 
 #seta-esquerda {
     display: none;
+    margin-top: 55px;
 }
 
 
 #seta-direita {
-    display: ;
+    display: flex;
+    margin-top: 55px;
 }
 
 
 
-.seta {
-    margin-top: 55%;
-}
