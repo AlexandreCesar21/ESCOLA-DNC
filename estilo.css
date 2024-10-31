@@ -97,4 +97,22 @@
 }
 
 
+.seta {
+    margin-top: 55px;
+    cursor: pointer;
+}
 
+.seta:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#titulo-formulario {
+    font-size:  25px;
+    margin: 25px;
+    color: #383838;
+}
