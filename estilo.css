@@ -97,6 +97,7 @@
 }
 
 
+
 .seta {
     margin-top: 55px;
     cursor: pointer;
@@ -115,4 +116,37 @@
     font-size:  25px;
     margin: 25px;
     color: #383838;
+}
+
+
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 25px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+}
+
+
+button {
+    width: 250px;
+    height: 40px;
+    background-color: #247BA0;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #EAECE5;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #247ba0db;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #29292991;
+    transition-duration: 0.5s;
 }
